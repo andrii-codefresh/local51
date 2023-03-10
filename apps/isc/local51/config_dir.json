@@ -4,7 +4,7 @@
   "destNamespace": "local51",
   "destServer": "https://kubernetes.default.svc",
   "srcPath": "shared-config/runtimes/local51",
-  "srcRepoURL": "https://github.com/andrii-codefresh/local5.git",
+  "srcRepoURL": "https://github.com/andrii-codefresh/local51.git",
   "srcTargetRevision": "",
   "labels": {
     "codefresh_io_entity": "shared-configuration",
