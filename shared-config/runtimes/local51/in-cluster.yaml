@@ -15,7 +15,7 @@ spec:
   source:
     directory:
       include: >-
-        {all-runtimes-all-clusters/*.yaml,all-runtimes-all-clusters/**/*.yaml,runtimes/local51/*.yaml,runtimes/local51/**/*.yaml,control-planes/*.yaml,control-planes/**/*.yaml,ecr/integration.config.yaml}
+        {all-runtimes-all-clusters/*.yaml,all-runtimes-all-clusters/**/*.yaml,runtimes/local51/*.yaml,runtimes/local51/**/*.yaml,control-planes/*.yaml,control-planes/**/*.yaml,ecr/integration.config.yaml,ecr-static/integration.config.yaml,ecr-static/integration.secret.yaml}
       recurse: true
     path: shared-config/resources
     repoURL: https://github.com/andrii-codefresh/local51.git
