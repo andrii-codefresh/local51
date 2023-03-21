@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ecr1-static
+  labels:
+    codefresh.io/entity: integration-config
+    codefresh.io/integration-type: registry.ecr.static
+data:
+  region: us-east-1
