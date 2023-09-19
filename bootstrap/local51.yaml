@@ -37,7 +37,7 @@ data:
       defVersion: null
       ingressClassName: nginx
       ingressController: k8s.io/ingress-nginx
-      ingressHost: http://andriicf-ingresshost.ngrok.io
+      ingressHost: https://andriicf-ingresshost.ngrok.io
       ref: ""
       repo: https://github.com/andrii-codefresh/local51.git
       requiredCLIVersion: ^0.1.0
