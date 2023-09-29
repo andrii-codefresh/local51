@@ -23,10 +23,10 @@ data:
       - name: workflows
         type: kustomize
         url: github.com/codefresh-io/csdp-official/csdp/hybrid/basic/apps/argo-workflows?ref=0.1.32
-      # - name: app-proxy
-      #   syncWave: 9
-      #   type: kustomize
-      #   url: github.com/codefresh-io/csdp-official/csdp/hybrid/basic/apps/app-proxy?ref=0.1.32
+      - name: app-proxy
+        syncWave: 9
+        type: kustomize
+        url: github.com/codefresh-io/csdp-official/csdp/hybrid/basic/apps/app-proxy?ref=0.1.32
       - name: internal-router
         syncWave: 10
         type: kustomize
